@@ -1,0 +1,92 @@
+td{
+    
+    width: 140px;
+    height: 140px;
+}
+td#c1, #c4{
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+}
+td#c2, #c5{
+    border-bottom: 3px solid black;
+}
+td#c3, #c6{
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+}
+td#c7, #c8{
+    border-right: 3px solid black;    
+}
+
+.cor_de_fundo{
+    background: navy
+}
+
+.popup-winner{
+    position: fixed;
+    top: 10px;bottom: 1;
+    left: 0;right: 0;
+    margin: auto;
+    width: 350px;
+    text-align: center;
+    background-color: cornflowerblue;
+    font-family: 'Dancing Script', cursive;
+}
+.popup-draw{
+    position: fixed;
+    top: 100px;bottom: 1;
+    left: 0;right: 0;
+    margin: auto;
+    width: 340px;
+    text-align: center;
+    display: none;
+    background-color: plum;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+@media (max-width: 575px){
+    .btn{
+        margin-left: 35%;
+        margin-bottom: 10px
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .logo{
+        width: 70%;
+    }
+    .btn{
+        margin-left: 35%;
+        margin-bottom: 10px
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .logo{
+        width: 50%;
+    }
+    .btn{
+        margin-left: 47%;
+        margin-bottom: 10px
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .logo{
+        width: 45%;
+    }
+    .btn{
+        margin-left: 47%;
+        margin-bottom: 10px
+    }
+}
+
+@media (min-width: 1200px) { 
+    .logo{
+        width: 40%;
+    }
+    .btn{
+        margin-left: 47%;
+        margin-bottom: 10px
+    }
+}

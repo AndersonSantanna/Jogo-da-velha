@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jogo da velha</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower" rel="stylesheet">
+</head>
+<body class="cor_de_fundo">
+    <div class="container">
+        <div class="row">
+            <img class="offset-2 offset-md-4 offset-lg-4 img-fluid logo" src="imagem/titulo.png" width="330px" alt="">
+        </div>
+        <div class="popup-winner" id="pop-win"><div id="img"></div></div>
+        <div class="popup-draw" id="pop-draw">
+            <a onclick="fecharDraw()"><span class="close mr-1">X</span></a>
+            <h1 class="display-4">Deu velha...</h1>
+            <img src="imagem/velha2.jpg" width="300px" alt="">
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <table class="offset-1 offset-md-3 offset-lg-4  mt-5">
+                <tr>
+                    <td class="" id="c1" data-ind="1"></td>
+                    <td class="" id="c2" data-ind="1"></td>
+                    <td class="" id="c3" data-ind="1"></td>
+                </tr>
+                <tr>
+                    <td class="" id="c4" data-ind="1"></td>
+                    <td class="" id="c5" data-ind="1"></td>
+                    <td class="" id="c6" data-ind="1"></td>
+                </tr>
+                <tr>
+                    <td class="" id="c7" data-ind="1"></td>
+                    <td class="" id="c8" data-ind="1"></td>
+                    <td class="" id="c9" data-ind="1"></td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <button class="btn btn-success mt-5" onclick="reiniciar()"><i class="fas fa-redo"></i> REINICIAR</button>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
