@@ -118,8 +118,6 @@ jogo()
 function reiniciar(){
     window.location.reload()
 }
-
-
 function fecharWin(){
     document.getElementById('pop-win').style = 'display: none' 
     reiniciar()
@@ -129,7 +127,7 @@ function fecharDraw(){
     reiniciar() 
 }
 
-let computador = () =>{
+/*let computador = () =>{
 
     let combWin = [[1, 2, 3],[1,4,7],[1,5,9],[2,5,8],[3,6,9], [4,5,6],[7,8,9]]
     
@@ -218,4 +216,4 @@ let computador = () =>{
         return Math.floor(Math.random() * (max - min + 1) ) + min;
     }
 }
-//computador()
+computador()*/
